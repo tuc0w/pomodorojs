@@ -1,0 +1,28 @@
+{
+    "root": true,
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "extends": [ "airbnb-base" ],
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "jQuery": true,
+        "$": true
+    },
+    "rules": {
+        "array-callback-return": "off",
+        "class-methods-use-this": 0,
+        "curly": ["error", "all"],
+        "func-names": "off",
+        "indent": ["error", 4],
+        "max-len": ["error", 120],
+        "no-multi-assign": "off",
+        "no-new": 0,
+        "no-plusplus": 0,
+        "no-shadow": "off",
+        "no-underscore-dangle": 0,
+        "prefer-arrow-callback": "off"
+    }
+}
