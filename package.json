@@ -5,6 +5,8 @@
     "author": "Andreas Behrend",
     "license": "MIT",
     "dependencies": {
+        "ascii-art": "^2.5.0",
+        "clear": "^0.1.0",
         "cli-progress": "^3.9.0",
         "colors": "^1.4.0",
         "enquirer": "^2.3.6",

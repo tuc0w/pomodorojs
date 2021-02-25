@@ -3,8 +3,9 @@ const readline = require("readline");
 const { Form, Input, Select } = require("enquirer");
 const _colors = require("colors");
 const cliProgress = require("cli-progress");
-var TimeFormat = require("hh-mm-ss");
+const TimeFormat = require("hh-mm-ss");
 const path = require("path");
+const clear = require('clear');
 
 readline.emitKeypressEvents(process.stdin);
 process.stdin.setRawMode(true);
@@ -22,6 +23,8 @@ class Pomodoro {
         this.timer = null;
         this.total = 0;
 
+        clear();
+        
         const multibar = new cliProgress.MultiBar({
             format: `{type} [${_colors.green("{bar}")}] {progress}`,
             barCompleteChar: "\u2588",
