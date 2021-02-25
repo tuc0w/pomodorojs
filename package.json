@@ -1,0 +1,16 @@
+{
+    "name": "exp",
+    "version": "1.0.0",
+    "main": "js/main.js",
+    "author": "Andreas Behrend",
+    "license": "MIT",
+    "dependencies": {
+        "cli-progress": "^3.9.0",
+        "colors": "^1.4.0",
+        "enquirer": "^2.3.6",
+        "hh-mm-ss": "^1.2.0"
+    },
+    "scripts": {
+        "start": "node js/main.js"
+    }
+}
