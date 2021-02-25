@@ -20,6 +20,12 @@ yarn start
 npm run start
 ```
 
+Output during work:
+![Output during work][work]
+
+Output during pause:
+![Output during pause][pause]
+
 To pause hit the <kbd>p</kbd> key, to resume work hit the <kbd>p</kbd> key again.
 
 To quit and write the logs hit the <kbd>q</kbd> key.
@@ -52,3 +58,7 @@ The logs will be saved as a json file within the `logs/` directory, the filename
 ---
 ## Credits
 Inspired by the article https://js.plainenglish.io/build-a-command-line-pomodoro-timer-in-node-js-65ed2f6d3308
+
+
+[work]: /docs/images/work.png "output during work"
+[pause]: /docs/images/pause.png "output during pause"
