@@ -21,9 +21,11 @@ npm run start
 ```
 
 Output during work:
+
 ![Output during work][work]
 
 Output during pause:
+
 ![Output during pause][pause]
 
 To pause hit the <kbd>p</kbd> key, to resume work hit the <kbd>p</kbd> key again.
